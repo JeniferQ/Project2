@@ -7,7 +7,7 @@ html {
 }
 
 .box {
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(76, 76, 76);
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
@@ -51,6 +51,22 @@ html {
 
 #image {
     display: none;
+}
+
+#hero-image {
+    padding: 90px 0;
+}
+
+#product1, #product2 {
+    padding: 60px 0;
+}
+
+#service1, #service2, #service3, #service4, #service5, #image, #service6 {
+    padding: 70px 0;
+}
+
+#footer {
+    padding: 60px 0;
 }
 
 /* Tablet Grid */
@@ -109,6 +125,31 @@ html {
 
     #image {
         display: none;
+    }
+
+    #logo, #nav {
+        padding: 25px 0;
+    }
+
+    #nav { 
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    #hero-image {
+        padding: 130px 0;
+    }
+    
+    #product1, #product2 {
+        padding: 80px 0;
+    }
+    
+    #service1, #service2, #service3, #service4, #service5, #image, #service6 {
+        padding: 100px 0;
+    }
+    
+    #footer {
+        padding: 80px 0;
     }
 
 }
